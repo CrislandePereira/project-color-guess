@@ -1,0 +1,46 @@
+body {
+  font-family: Luckiest Guy, sans-serif;
+}
+
+main {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px 0 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.balls {
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#answer {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 25px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+}
+
+#reset-game {
+  background-color: red;
+  color: white;
+}
